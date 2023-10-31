@@ -1,0 +1,84 @@
+header {
+  background-color: #E6E6FA;
+  box-sizing: border-box;
+  padding: 15px 0 15px 5px;
+}
+
+#serverErrors {
+  font-size: 1.25em;
+  color: red;
+  box-sizing: border-box;
+  margin-bottom: 10px
+}
+
+#toolbar {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 0 15px 5px;
+  background-color: lightGray;
+  margin-bottom: 10px;
+}
+
+#addContact {
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+#searchBar {
+  box-sizing: border-box;
+  float: right;
+  margin-right: 20px;
+}
+
+#tagFilter {
+  box-sizing: border-box;
+  float: right;
+  margin-right: 20px;
+}
+
+.contactCard {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 250px;
+  border: 1px black solid;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+
+.contactCard dt {
+  font-weight: bold;
+}
+
+.contactCard dd {
+  margin-left: 0;
+  margin-bottom: 10px
+}
+
+.contactNameDisplay {
+  font-size: 1.25em;
+  margin-bottom: 10px
+}
+
+section {
+  width:100%;
+  -webkit-transition: visibility 0.5s, opacity 0.5s;
+    -moz-transition: visibility 0.5s, opacity 0.5s;
+      transition: visibility 0.5s, opacity 0.5s;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.errorMessage {
+  color: red;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
